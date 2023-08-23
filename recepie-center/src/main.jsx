@@ -1,10 +1,19 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
+import LandingPage from './LandingPage.jsx'
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Footer from './Footer';
+import SearchPage from './SearchPage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter>
+      <Routes>
+        <Route index={true} path="/" element={<LandingPage />} />
+        <Route path="/search" element={<SearchPage />} />
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   </React.StrictMode>,
 )
