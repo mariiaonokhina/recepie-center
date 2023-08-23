@@ -201,6 +201,8 @@
     display: flex;
     flex-direction: row;
     place-items: center;
+    text-decoration: none;
+    color: black;
 }
 
 .recipe-mini-image {
