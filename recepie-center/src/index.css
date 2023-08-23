@@ -3,6 +3,7 @@
     padding: 0;
 }
 
+/* Landing page */
 .LandingPage {
     background-color: #004AAD;
     background-image: url(./blue-sky-bg.jpg);
@@ -32,12 +33,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 42px;
     margin-bottom: 5vh;
+    width: fit-content;
+    text-align: center;
 }
 
 .product-description {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 22px;
     margin-bottom: 5vh;
+    width: fit-content;
+    text-align: center;
 }
 
 .button-container {
@@ -109,4 +114,121 @@
 
 .Footer ul li {
     margin-right: 10vw;
+}
+
+/* Search Page */
+.SearchPage {
+    background-color: #004AAD;
+    height: 92vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: center;
+}
+
+/* Left side */
+.search-container {
+    background-color: #E7CB94;
+    height: 65vh;
+    width: 30vw;
+    margin-right: 3vw;
+    border: 3px black solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    justify-content: space-between;
+}
+
+.search-container input {
+    height: 5vh;
+    width: 90%;
+    border: none;
+    border-radius: 20px;
+    background-color: aliceblue;
+    margin-top: 2vh;
+}
+
+.ingredient-container {
+    border: 2px black solid;
+    height: 45vh;
+    width: 100%;
+    text-align: center;
+}
+
+.add-delete-buttons-container {
+    height: fit-content;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+    justify-content: space-around;
+    margin-bottom: 2vh;
+}
+
+.add-btn, .delete-btn {
+    height: 5vh;
+    width: 12vw;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.add-btn:hover {
+    background-color: #519100;
+    color: white;
+    transition: 0.3s;
+}
+
+.delete-btn {
+    background-color: #D42A2A;
+    color: white;
+}
+
+/* Right side */
+.found-recipes-container {
+    background-color: #E7CB94;
+    height: 65vh;
+    width: 60vw;
+    border-radius: 20px;
+    border: 3px black solid;
+    overflow-y: scroll;
+}
+
+.RecipeMini {
+    border-bottom: 2px black solid;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    place-items: center;
+}
+
+.recipe-mini-image {
+    height: 25vh;
+    padding: 2vh;
+}
+
+.recipe-mini-description {
+    height: 77%;
+    width: 100%;
+    margin-right: 2vh;
+    display: flex;
+    flex-direction: column;
+    place-items: start;
+    justify-content: space-between;
+}
+
+.recipe-mini-name {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+}
+
+.recipe-mini-ingredients {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.recipe-mini-calories {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
 }
