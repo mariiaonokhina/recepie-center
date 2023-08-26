@@ -1,97 +1,71 @@
-recipes = {
-    'Recipe 1': ['ingredient1', 'ingredient2', 'ingredient3'],
-    'Recipe 2': ['ingredient2', 'ingredient3', 'ingredient4'],
-    'Recipe 3': ['ingredient5'],
-    'Recipe 4': ['ingredient1','ingredient3','ingredient5']
-    # Add more recipes here
-}
+import json
 
-def search_recipes(chosen_ingredients):
+path = "/Users/mariiaonokhina/Desktop/Cuny Tech Prep/Hackathon/recepie-center/recepie-center/public/ingredients.txt"
+
+def set_ingredients(file_path):
+    ingredients = []
+
+    with open(file_path, mode='r') as foods:
+        for food in foods:
+            entry = food.strip()
+            if entry not in ingredients:
+                ingredients.append(entry)
+
+    return ingredients
+
+pantry = set_ingredients(path)
+
+class Ingredient():
+    def __init__(self, name, qty, unit):
+        self.name = name
+        self.qty = qty
+        self.unit = unit
+
+class Recipe():
+    def __init__(self, json_obj):
+        self.name = json_obj['name']
+
+        ingredient_list = []
+        for ingredient in json_obj['ingredients']:
+            entry = Ingredient(ingredient['ingredient'], ingredient['quantity'], ingredient['unit'])
+            ingredient_list.append(entry)
+
+        self.ingredients = ingredient_list
+        self.ingredient_count = json_obj['number_of_ingredients']
+        self.steps = json_obj['steps']
+        self.total_calories = json_obj['total_calories']
+        self.json_string = str(json_obj)
+
+
+def get_recipes(file_path):
+    with open(file_path, mode='r') as file:
+        data = json.load(file)
+
+    recipe_object_list = []
+
+    for recipe in data:
+        recipe_object_list.append(Recipe(recipe))
+
+    return recipe_object_list
+
+# JSON file path
+path = "/Users/mariiaonokhina/Desktop/Cuny Tech Prep/Hackathon/recepie-center/recepie-center/BackendRecepie/recipes.JSON"
+
+recipe_obj_list = get_recipes(path)
+
+def get_viable_recipes(recipe_obj_list, kitchen_pantry):
     matching_recipes = []
 
-    for recipe, ingredients in recipes.items():
-        if all(ingredient in ingredients for ingredient in chosen_ingredients):
+    print("Chosen Ingredients:", kitchen_pantry)
+
+    for recipe in recipe_obj_list:
+        recipe_ingredients = [ingredient.name for ingredient in recipe.ingredients]
+        
+        print("Recipe Ingredients:", recipe_ingredients)
+        
+        if all(ingredient in recipe_ingredients for ingredient in kitchen_pantry):
             matching_recipes.append(recipe)
+            
+        print("Viable Recipes:", [recipe.name for recipe in matching_recipes])
 
     return matching_recipes
-
-# class Recipe():  
-    
-#     def __init__(self, name, ingredients, equipment=None, nutrition_facts=None):
-#         self.recipe_name = name 
-#         self.ingredients = ingredients # A list of ingredients.
-#         self.equipment = equipment # A list of required equipment.
-#         self.nutrition_facts = nutrition_facts # Undetermined data structure and details.
-#         self.calories = 0
-
-#     def get_calories(self, ingredient_dict):
-#         for ingredient in self.ingredients:
-#             self.calories += ingredient_dict[ingredient]
-        
-#         return self.calories
-    
-
-# # This function recieves a dictionary of recipes associated with a Recipe
-# # object and a dictionary of food item names assiated with their respective 
-# # calorie count. It then searches through each Recipe object and checks if 
-# # all its ingredients are present in the inventory_dict. It then returns 
-# # a list of all the Recipe objects whos ingredients member list intersects 
-# # with the inventory_dict. 
-# def check_viable_recipe(recipe_dict, inventory_dict):
-#     result = []
-
-#     for recipe in recipe_dict:
-#         ingredient_list = recipe_dict[recipe].ingredients
-#         flag = True
-
-#         for ingredient in ingredient_list:
-#             if ingredient not in inventory_dict:
-#                 flag = False
-        
-#         if flag:
-#             result.append(recipe)
-    
-#     return result
-
-
-# # Recieves a path to a csv file where it reads in, formats, and stores
-# # the first column of each row as the key and second column of each row
-# # as the associated value. 
-# def fill_pantry(invetory_csv):
-#     food_pantry = {}
-
-#     with open(invetory_csv, mode='r') as inventory:
-
-#         for item in inventory:
-#             entry = item.strip().split(',')
-#             entry = [entry[0].lower(), int(entry[1])]
-#             food_pantry[entry[0]] = entry[1]
-
-#     return food_pantry
-
-
-# # Fill and return a dictionary where the key is the recipe name
-# # and the associated value is an object of type Recipe.
-# def set_cookbook():
-#     cookbook = {}
-#     recipe_count = int(input("How many recipies do you want to enter: "))
-
-#     for recipe in range(recipe_count):
-#         recipe_name = input("What's the recipe called? ")
-#         ingredient_count = int(input("How many ingredients are there? "))
-#         ingredient_list = []
-
-#         for ingredient in range(ingredient_count):
-#             ingredient_name = input("Enter the ingredient name: ")
-#             ingredient_list.append(ingredient_name)
-
-#         entry = Recipe(recipe_name, ingredient_list)
-#         cookbook[entry.recipe_name] = entry
-
-#     return cookbook
-
-
-# path = "food_calories.csv"
-# recipes = check_viable_recipe(set_cookbook(), fill_pantry(path))
-
-# print(recipes)

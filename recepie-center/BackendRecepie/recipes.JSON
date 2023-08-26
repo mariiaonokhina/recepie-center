@@ -1,0 +1,302 @@
+[
+  {
+    "name": "Baked Oatmeal Cups",
+    "ingredients": [
+      {"ingredient": "rolled oats", "quantity": 200, "unit": "grams"},
+      {"ingredient": "wallnuts", "quantity": 60, "unit": "grams"},
+      {"ingredient": "brown sugar", "quantity": 60, "unit": "grams"},
+      {"ingredient": "baking powder", "quantity": 1, "unit": "teaspoons"},
+      {"ingredient": "cinnamon", "quantity": 1.5, "unit": "teaspoons"},
+      {"ingredient": "sea salt", "quantity": 0.5, "unit": "teaspoons"},
+      {"ingredient": "blueberries", "quantity": 185, "unit": "grams"},
+      {"ingredient": "banana", "quantity": 2, "unit": "-"},
+      {"ingredient": "milk", "quantity": 475, "unit": "milliliters"},
+      {"ingredient": "egg", "quantity": 1, "unit": "large"},
+      {"ingredient": "olive oil", "quantity": 3, "unit": "tablespoons"},
+      {"ingredient": "vanilla extract", "quantity": 1, "unit": "teaspoon"}
+    ],
+    "number_of_ingredients": 12,
+    "steps": ["combine dry ingredients and fruit", "add wet ingredients in large bowl", "wait a few minutes", "mix", "fill each muffin cup roughly 3/4 full"],
+    "total_calories": 800
+  },
+
+  {
+    "name": "Good Old-Fashioned Pancakes",
+    "ingredients": [
+      {"ingredient": "flour", "quantity": 1.5 , "unit": "cup"},
+      {"ingredient": "baking powder", "quantity": 3.5 , "unit": "teaspoon"},
+      {"ingredient": "white sugar", "quantity": 1, "unit": "tablespoons"},
+      {"ingredient": "salt", "quantity": 0.25, "unit": "teaspoon"},
+      {"ingredient": "milk", "quantity": 1.25 , "unit": "cup"},
+      {"ingredient": "butter", "quantity": 3, "unit": "tablespoons"},
+      {"ingredient": "egg", "quantity": 1, "unit": "large"}
+    ],
+    "number_of_ingredients": 7,
+    "steps": ["sift flour,baking powder, sugar, and salt together in bowl", "make well in center and add milk,melted butter, and egg unitl smooth ", "heat pan", "pour 1/4 cup of batter onto pan","cook  2 to 3 minutes", "flip and cook unitl browned on both sides ", "repeat"],
+    "total_calories": 158
+  },
+
+  {
+    "name": "Cinnamon Swirl Bread",
+    "ingredients": [
+      {"ingredient": "dry yeast", "quantity": 2, "unit": "packages"},
+      {"ingredient": "water", "quantity": 0.33, "unit": "cup"},
+      {"ingredient": "milk", "quantity": 1 , "unit": "cup"},
+      {"ingredient": "sugar", "quantity": 1 , "unit": "cup"},
+      {"ingredient": "eggs", "quantity": 2, "unit": "large"},
+      {"ingredient": "butter", "quantity": 6, "unit": "tablespoons"},
+      {"ingredient": "salt", "quantity": 1, "unit": "teaspoon"},
+      {"ingredient": "flour", "quantity": 5.5, "unit": "cup"},
+      {"ingredient": "cinnamon", "quantity": 2 , "unit": "tablespoons"}
+    ],
+    "number_of_ingredients": 9,
+    "steps": ["in bowl dissolve yeast and warm water", "add milk, 1/2 cup sugar, eggs, butter, salt and 3 cups flour", "beat until soft dough", "knead dough 6-8min,place in grease pan,and cover to let rise until double (abt 1 hr)","mix cinnamon and 1/2 cup sugar and punch down dough and divide in half"," Roll each portion into an 18x8-in. rectangle; sprinkle each with about 1/4 cup cinnamon sugar to within 1/2 in. of edges. Roll up jelly-roll style, starting with a short side; pinch seam to seal. Place in 2 greased 9x5-in. loaf pans, seam side down", "Cover with kitchen towels; let rise in a warm place until doubled, about 1-1/2 hours. Preheat oven to 350°","bake for 30-35min and let cool"],
+    "total_calories": 132
+  },
+
+  {
+    "name": "Amish Breakfast Casserole",
+    "ingredients": [
+      {"ingredient": "bacon", "quantity": 1 , "unit": "pound"},
+      {"ingredient": "onion", "quantity": 1 , "unit": "onion"},
+      {"ingredient": "eggs", "quantity": 6, "unit": "large"},
+      {"ingredient": "potatoes", "quantity": 4, "unit": "cup"},
+      {"ingredient": "chedder cheese", "quantity": 2 , "unit": "cup"},
+      {"ingredient": "cottage cheese", "quantity": 1.5, "unit": "cup"},
+      {"ingredient": "swiss cheese", "quantity": 1.25, "unit": "cup"}
+    ],
+    "number_of_ingredients": 7 ,
+    "steps": ["Preheat oven to 350°.", "In a large skillet, cook bacon and onion over medium heat until bacon is crisp; drain.", "In a large bowl, combine remaining ingredients; stir in bacon mixture.", "Transfer to a greased 13x9-in. baking dish", "Bake, uncovered, until a knife inserted in the center comes out clean, 35-40 minutes.", "Let stand 10 minutes before cutting"],
+    "total_calories": 229
+  },
+
+  {
+    "name": "Easy Cheese Danish",
+    "ingredients": [
+      {"ingredient": "egg", "quantity": 1, "unit": "large"},
+      {"ingredient": "yolk", "quantity": 8, "unit": "oz"},
+      {"ingredient": "cream cheese", "quantity": 8, "unit": "oz"},
+      {"ingredient": "sugar", "quantity": 3, "unit": "tablespoons"},
+      {"ingredient": "lemon", "quantity": 1, "unit": "teaspoons"},
+      {"ingredient": "vanilla extract", "quantity": 0.25, "unit": "teaspoons"},
+      {"ingredient": "puff pastry", "quantity": 17.3 , "unit": "oz"}
+    ],
+    "number_of_ingredients": 7,
+    "steps": ["preheat oven to 400", "line 2 baking pans with parchment paper", "beat egg with 1 teaspoon water", "beat egg yolk, cream cheese, sugar, lemon juice and vanilla in seperate bowl until smooth ", "Lay out the 2 sheets of puff pastry and cut each into 4 squares. Fold the corners of the squares over by about 1 inch to make octagon shapes. Spoon the cream cheese mixture evenly into the center of each (about 2 tablespoons per); do not spread the cream cheese. Brush all of the exposed pastry with the egg wash, then dust generously with sugar","bake until golden brown"],
+    "total_calories": 206
+  },
+  {
+    "name": "Avocado-Egg Toast",
+    "ingredients": [
+      {"ingredient": "avocado", "quantity": 0.25, "unit": "cup"},
+      {"ingredient": "ground pepper", "quantity": 0.25, "unit": "teaspoon"},
+      {"ingredient": "garlic powder", "quantity": 0.125, "unit": "teaspoon"},
+      {"ingredient": "bread", "quantity": 1, "unit": "slice"},
+      {"ingredient": "egg", "quantity": 1, "unit": "large"}
+    ],
+    "number_of_ingredients": 5,
+    "steps": ["combine avocado, pepper and garlic powder in a small bowl and gently mash", "Top toast with the avocado mixture and fried egg. Garnish with Sriracha and scallion, if desired"],
+    "total_calories": 271
+  },
+
+  {
+    "name": "Tuna Panini Melt",
+    "ingredients": [
+      {"ingredient": "Tuna", "quantity": 5, "unit": "oz"},
+      {"ingredient": "mayonnaise", "quantity": 1, "unit": "tablespoons"},
+      {"ingredient": "balsamic vinegar", "quantity": 1, "unit": "tablespoons"},
+      {"ingredient": "onion", "quantity": 1, "unit": "chopped"},
+      {"ingredient": "pickle", "quantity": 1 , "unit": "chopped"},
+      {"ingredient": "bread", "quantity": 4, "unit": "slices"},
+      {"ingredient": "american cheese", "quantity": 2, "unit": "slices"}
+    ],
+    "number_of_ingredients": 7,
+    "steps": ["Mix tuna, mayonnaise, balsamic vinegar, onion, and dill pickle together in a bowl.", "Spread tuna mixture over 2 slices of bread. Top with American cheese and remaining 2 slices of bread.", "Cook in a panini press until bread is crispy and cheese is melted, 3 to 4 minutes."],
+    "total_calories": 381
+  },
+  {
+    "name": "Open-Faced Pizza Burgers",
+    "ingredients": [
+      {"ingredient": "beef", "quantity": 1.5, "unit": "pound"},
+      {"ingredient": "onion", "quantity": 0.25, "unit": "cup"},
+      {"ingredient": "pizza sauce", "quantity": 1, "unit": "can"},
+      {"ingredient": "mushroom", "quantity": 4, "unit": "oz"},
+      {"ingredient": "sugar", "quantity": 1, "unit": "tablespoons"},
+      {"ingredient": "oregano", "quantity":0.5 , "unit": "teaspoon"},
+      {"ingredient": "buns", "quantity": 6, "unit": "pieces"},
+      {"ingredient": "mozzarella cheese", "quantity": 1.5 , "unit": "cup"}
+    ],
+    "number_of_ingredients": 8,
+    "steps": ["In a large cast-iron or other heavy skillet, cook beef and onion over medium heat until the meat is no longer pink, 3-5 minutes, breaking beef into crumbles. Drain. Stir in the pizza sauce, mushrooms, sugar and oregano; mix well. Spoon onto buns; sprinkle with mozzarella cheese.", "Place on ungreased baking sheets. Broil 4 in. from the heat until cheese is melted, about 2 minutes."],
+    "total_calories": 205
+  },
+  {
+    "name": "Quick Taco Wraps",
+    "ingredients": [
+      {"ingredient": "cream cheese", "quantity":0.5 , "unit": "cup"},
+      {"ingredient": "green chiles", "quantity": 0.25, "unit": "cup"},
+      {"ingredient": "sour cream", "quantity": 0.25, "unit": "cup"},
+      {"ingredient": "taco seasoning", "quantity": 2, "unit": "tablespoons"},
+      {"ingredient": "bean dip", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "tortillas", "quantity":4 , "unit": "pieces"},
+      {"ingredient": "guacamole", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "onion", "quantity": 1, "unit": "small"},
+      {"ingredient": "red pepper", "quantity": 1, "unit": "small"},
+      {"ingredient": "chedder cheese", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "olives", "quantity": 1, "unit": "can"}
+    ],
+    "number_of_ingredients": 11,
+    "steps": ["In a small bowl, beat cream cheese until smooth. Stir in green chiles, sour cream and taco seasoning.", "Spread bean dip over tortillas to within 1/2 in. of edges. Layer with guacamole dip, cream cheese mixture, onion, pepper, cheese and olives. Roll up tightly and serve."],
+    "total_calories": 533
+  },
+  {
+    "name": "Grilled Turkey and Swiss Sandwich",
+    "ingredients": [
+      {"ingredient": "mayonnaise", "quantity": 1 , "unit": "tablespoons"},
+      {"ingredient": "bread", "quantity": 2, "unit": "pieces"},
+      {"ingredient": "swiss cheese", "quantity": 2, "unit": "slices"},
+      {"ingredient": "turkey", "quantity": 2, "unit": "slices"},
+      {"ingredient": "spinach", "quantity":0.25 , "unit": "cup"}
+    ],
+    "number_of_ingredients": 5,
+    "steps": ["Set oven rack about 6 inches from the heat source and preheat the oven's broiler.", "Spread mayonnaise onto 1 side of each bread slice. Layer Swiss cheese, turkey, and spinach onto the mayonnaise-side of 1 bread slice; top with second bread slice. Place sandwich on a baking sheet.", "Broil in the preheated oven until heated through and cheese is bubbling, about 5 minutes."],
+    "total_calories": 577
+  },
+
+  {
+    "name": "Fajitas in Pitas",
+    "ingredients": [
+      {"ingredient": "mayonnaise", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "onion", "quantity": 1, "unit": "chopped"},
+      {"ingredient": "dijon mustard", "quantity": 4, "unit": "teaspoon"},
+      {"ingredient": "pepper", "quantity": 0.25, "unit": "teaspoon"},
+      {"ingredient": "chicken breast", "quantity": 3, "unit": "pieces"},
+      {"ingredient": "red pepper", "quantity": 2 , "unit": "medium"},
+      {"ingredient": "green pepper", "quantity": 2, "unit": "medium"},
+      {"ingredient": "pita pocket", "quantity": 8, "unit": "halves"},
+      {"ingredient": "lettuce", "quantity": 8, "unit": "pieces"}
+    ],
+    "number_of_ingredients": 9,
+    "steps": ["In a small bowl, mix mayonnaise, green onion, mustard and pepper; reserve 1/3 cup for assembling. Spread remaining mixture over chicken and peppers.", "Grill chicken and peppers, covered, over medium heat or broil 4 in. from heat for 5-6 minutes on each side or until a thermometer inserted in chicken reads 165° and peppers are tender. Cut chicken into 1/2-in. slices; cut peppers into 1-in. slices.", "Spread reserved mayonnaise mixture inside pita halves; fill with lettuce, chicken and peppers."],
+    "total_calories": 515
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "ingredients": [
+      {"ingredient": "spaghetti", "quantity": 200, "unit": "grams"},
+      {"ingredient": "guanciale", "quantity": 100, "unit": "grams"},
+      {"ingredient": "egg yolks", "quantity": 2, "unit": "pieces"},
+      {"ingredient": "pecorino cheese", "quantity": 50, "unit": "grams"},
+      {"ingredient": "black pepper", "quantity": 1, "unit": "teaspoon"}
+    ],
+    "number_of_ingredients": 5,
+    "steps": ["Boil spaghetti", "Cook guanciale", "Mix egg yolks and cheese", "Toss everything together", "Add black pepper"],
+    "total_calories": 600
+  },
+  {
+    "name": "Chicken Alfredo",
+    "ingredients": [
+      {"ingredient": "chicken breast", "quantity": 2, "unit": "pieces"},
+      {"ingredient": "fettuccine", "quantity": 150, "unit": "grams"},
+      {"ingredient": "heavy cream", "quantity": 200, "unit": "milliliters"},
+      {"ingredient": "Parmesan cheese", "quantity": 50, "unit": "grams"},
+      {"ingredient": "garlic", "quantity": 2, "unit": "cloves"}
+    ],
+    "number_of_ingredients": 5,
+    "steps": ["Cook chicken", "Boil fettuccine", "Make cream sauce", "Combine everything", "Add garlic"],
+    "total_calories": 800
+  },
+  {
+    "name": "Cilantro Lime Shrimp",
+    "ingredients": [
+      {"ingredient": "cilantro", "quantity":0.33 , "unit": "cup"},
+      {"ingredient": "lime zest", "quantity": 1, "unit": "teaspoon"},
+      {"ingredient": "lime juice", "quantity": 0.33, "unit": "cup"},
+      {"ingredient": "jalapeno pepper,", "quantity": 1, "unit": "piece"},
+      {"ingredient": "olive oil", "quantity": 2, "unit": "tablespoons"},
+      {"ingredient": "garlic", "quantity": 3 , "unit": "cloves"},
+      {"ingredient": "salt", "quantity": 0.25, "unit": "teaspoon"},
+      {"ingredient": "cumin", "quantity": 0.25, "unit": "teaspoon"},
+      {"ingredient": "pepper", "quantity":0.25 , "unit": "teaspoon"},
+      {"ingredient": "shrimp", "quantity": 1, "unit": "pound"},
+      {"ingredient": "lime ", "quantity": 3, "unit": "slices"}
+    ],
+    "number_of_ingredients": 11,
+    "steps": ["Mix first 9 ingredients; toss with shrimp. Let stand 15 minutes.", "Thread shrimp and lime slices onto 4 metal or soaked wooden skewers. Grill, covered, over medium heat until shrimp turn pink, 2-4 minutes per side."],
+    "total_calories": 167
+  },
+  {
+    "name": "Scrum-Delicious Burgers",
+    "ingredients": [
+      {"ingredient": "beef", "quantity": 1, "unit": "pound"},
+      {"ingredient": "onion", "quantity":3 , "unit": "tablespoons"},
+      {"ingredient": "salt", "quantity": 0.5, "unit": "teaspoons"},
+      {"ingredient": "pepper", "quantity": 0.5 , "unit": "teaspoons"},
+      {"ingredient": "chedder cheese", "quantity": 1, "unit": "cup"},
+      {"ingredient": "mushroom", "quantity": 0.33, "unit": "cup"},
+      {"ingredient": "bacon", "quantity": 6, "unit": "strips"},
+      {"ingredient": "mayonnaise", "quantity":0.25 , "unit": "cup"},
+      {"ingredient": "buns", "quantity": 6, "unit": "pieces"}
+    ],
+    "number_of_ingredients": 9,
+    "steps": ["In a large bowl, combine the beef, onion, garlic salt and pepper. Shape into 6 patties, 3/4 in. thick.", "In a small bowl, combine the cheese, mushrooms, bacon and mayonnaise; chill.", "Grill burgers, covered, over medium heat until a thermometer reads 160°, 5-7 minutes on each side. During the last 3 minutes, spoon 1/4 cup of the cheese mixture onto each burger. Serve on buns, with lettuce and tomato if desired."],
+    "total_calories": 480
+  },
+  {
+    "name": "Chicken Rice Bowl",
+    "ingredients": [
+      {"ingredient": "rice", "quantity": 1, "unit": "cup"},
+      {"ingredient": "broth", "quantity": 1, "unit": "cup"},
+      {"ingredient": "green pepper", "quantity":0.5 , "unit": "cup"},
+      {"ingredient": "onion", "quantity": 0.25, "unit": "cup"},
+      {"ingredient": "olive oil", "quantity": 2, "unit": "teaspoon"},
+      {"ingredient": "chicken breast", "quantity": 1, "unit": "package"},
+      {"ingredient": "corn", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "peas", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "basil", "quantity": 1, "unit": "teaaspoon"},
+      {"ingredient": "sage", "quantity": 1, "unit": "teaspoon"},
+      {"ingredient": "salt", "quantity": 0.125, "unit": "teaaspoon"},
+      {"ingredient": "pepper", "quantity": 0.125, "unit": "teaaspoon"}
+    ],
+    "number_of_ingredients": 12 ,
+    "steps": ["Cook rice in broth according to package directions. Meanwhile, in a large skillet, saute the green pepper and onion in oil for 2-3 minutes or until crisp-tender. Stir in the chicken, corn, peas, basil and sage. Cook, uncovered, for 4-5 minutes over medium heat or until heated through. Stir in the rice, salt and pepper."],
+    "total_calories": 239
+  },
+  {
+    "name": "Baked Feta Pasta",
+    "ingredients": [
+      {"ingredient": "tomato", "quantity":2 , "unit": "pt"},
+      {"ingredient": "shallot", "quantity":1 , "unit": "quartered"},
+      {"ingredient": "garlic", "quantity": 3, "unit": "cloves"},
+      {"ingredient": "olive oil", "quantity": 0.5, "unit": "cup"},
+      {"ingredient": "salt", "quantity": 1, "unit": "tablespoon"},
+      {"ingredient": "red pepper", "quantity": 1, "unit": "pinch"},
+      {"ingredient": "feta", "quantity": 8, "unit": "oz"},
+      {"ingredient": "thyme", "quantity":3 , "unit": "springs"},
+      {"ingredient": "pasta", "quantity": 10, "unit": "oz"},
+      {"ingredient": "lemon", "quantity": 1, "unit": "zest"},
+      {"ingredient": "basil", "quantity": 2, "unit": "pieces"}
+    ],
+    "number_of_ingredients": 11,
+    "steps": ["Preheat oven to 400°. In a large ovenproof skillet or medium baking dish, combine tomatoes, shallot, garlic, and all but 1 tablespoon oil. Season with salt and red pepper flakes and toss to combine. ", "Place feta into center of tomato mixture and drizzle with remaining 1 tablespoon oil. Scatter thyme sprigs over tomatoes. Bake for 40 to 45 minutes, until tomatoes are bursting and feta is golden on top. ", "Meanwhile, in a large pot of boiling salted water, cook pasta until al dente according to package directions. Reserve ½ cup pasta water before draining.", "To skillet with tomatoes and feta, add cooked pasta, reserved pasta water, and lemon zest (if using) and stir until combined. Garnish with basil. "],
+    "total_calories": 2813
+  },
+  {
+    "name": "Tricolore Skillet Lasagna",
+    "ingredients": [
+      {"ingredient": "salt", "quantity": 1, "unit": "tablespoon"},
+      {"ingredient": "pepper", "quantity": 1, "unit": "tablespoon"},
+      {"ingredient": "lasagna noodles", "quantity":12 , "unit": "oz"},
+      {"ingredient": "olive oil", "quantity": 0.25, "unit": "cup"},
+      {"ingredient": "onion", "quantity":1 , "unit": "sliced"},
+      {"ingredient": "garlic", "quantity":4 , "unit": "cloves"},
+      {"ingredient": "tomato", "quantity": 28, "unit": "oz"},
+      {"ingredient": "pesto", "quantity": 6, "unit": "oz"},
+      {"ingredient": "mozzarella cheese", "quantity": 8, "unit": "oz"},
+      {"ingredient": "Parmesan cheese", "quantity": 0.5, "unit": "cup"}
+    ],
+    "number_of_ingredients": 10,
+    "steps": ["Fill a large oven-safe, straight-sided skillet about ¾ full with water and bring to a boil. Add 1 tablespoon salt and return to a boil. Add the lasagna noodles and cook, turning often with tongs, two minutes less than the package directions for al dente (usually about 7 minutes). Transfer noodles to an oiled baking sheet and gently toss to coat. Drain skillet", "Preheat broiler to high with a rack in the upper third. Heat olive oil in the same skillet over medium-high. Add onion and garlic and season with ½ teaspoon salt and ¼ teaspoon pepper. Cook, stirring often, until onions begin to brown, 3 to 5 minutes. Add tomatoes, breaking them up with your hands as you add them to the skillet, and stir to combine. Bring to a simmer and cook 5 minutes.", "Remove the skillet from the heat and add the noodles, tossing gently and letting them fold onto themselves until evenly coated with the sauce. Dollop with the pesto and top with the mozzarella and Parmesan. Transfer skillet to the oven and broil until cheese is melted and bubbly, 2 to 3 minutes. Let cool slightly before serving, topped with more Parmesan. "],
+    "total_calories": 483
+  }
+]
