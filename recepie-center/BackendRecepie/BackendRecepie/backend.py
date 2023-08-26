@@ -1,6 +1,6 @@
 import json
 
-path = "/Users/mariiaonokhina/Desktop/Cuny Tech Prep/Hackathon/recepie-center/recepie-center/public/ingredients.txt"
+path = "/Users/mariiaonokhina/Desktop/Cuny Tech Prep/Hackathon/recepie-center/recepie-center/src/assets/ingredients.txt"
 
 def set_ingredients(file_path):
     ingredients = []
@@ -69,3 +69,8 @@ def get_viable_recipes(recipe_obj_list, kitchen_pantry):
         print("Viable Recipes:", [recipe.name for recipe in matching_recipes])
 
     return matching_recipes
+
+def lookupRecipe(name):
+    for a in get_recipes(path):
+        if a.name == name:
+            return(a.json_string)

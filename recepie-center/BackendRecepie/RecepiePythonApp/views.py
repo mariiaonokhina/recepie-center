@@ -1,8 +1,10 @@
-from django.http import JsonResponse
+import json
+from django.http import HttpResponse, JsonResponse
 from django.core.serializers import serialize
 
 from BackendRecepie.backend import recipe_obj_list
 from BackendRecepie.backend import get_viable_recipes
+from BackendRecepie.backend import lookupRecipe
 
 # WORKING CODE
 # def get_matching_recipes(request):
@@ -69,3 +71,16 @@ def get_matching_recipes(request):
         return JsonResponse({'matching_recipes': recipe_data})
     else:
         return JsonResponse({'error': 'Invalid request method'})
+
+def recipe_lookup_view(request, recipe_name):
+    try:
+        recipe_json = lookupRecipe(recipe_name)
+        
+        if recipe_json is None:
+            return JsonResponse({'error': 'Recipe not found'}, status=404)
+        
+        recipe_dict = json.loads(recipe_json)  # Convert JSON-formatted string to dict
+        return JsonResponse(recipe_dict, safe=True)
+    except Exception as e:
+        print("Error:", e)
+        return JsonResponse({'error': 'Internal server error'}, status=500)

@@ -21,4 +21,5 @@ from RecepiePythonApp import views  # Import views from the correct package
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('get-matching-recipes/', views.get_matching_recipes, name='get-matching-recipes'),
+    path('api/recipe/<str:recipe_name>/', views.recipe_lookup_view, name='recipe-lookup'),
 ]
